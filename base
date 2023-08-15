@@ -14,6 +14,7 @@ su (enter)
 
 echo "192.168.150.10 pve.dc.grupoblenx.com.br" >> /ets/hosts
 echo "192.168.150.11 pve2.dc.grupoblenx.com.br" >> /etc/hosts
+echo "192.168.150.20 dc.grupoblenx.com.br" >> /etc/hosts
 
 hostnamectl set-hostname [nomedamaquina].dc.grupoblenx.com.br
 
